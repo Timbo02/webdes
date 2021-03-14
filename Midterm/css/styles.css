@@ -1,0 +1,95 @@
+/* Gloabl Styles */
+
+body {
+    background-color: lightblue;
+
+}
+
+img {
+    max-width: 100%;
+}
+
+a {
+    color: black;
+}
+
+a:hover {
+    color:antiquewhite;
+    text-decoration: none;
+}
+
+
+
+/* Main Styles */
+
+#container {
+    background-color: darkgoldenrod;
+    width: 85%;
+    margin: 20px auto;
+    padding: 20px;
+}
+
+header {
+    background-color: gray;
+}
+
+header img {
+    display: block;
+    width: 55%;
+    margin: 0 auto;
+}
+
+nav {
+    text-align: center;
+    background-color: gray;
+    padding: 20px 0;
+    margin: 20px;
+}
+
+nav a{
+    background-color: black;
+    color: white;
+    padding: 15px 50px;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+nav a:hover {
+    background-color: darkred;
+    color: white;
+}
+
+main {
+    background-color: gray;
+    padding: 20px;
+    margin: 20px 0;
+}
+
+main h1 {
+    text-align: center;
+}
+
+main ol {
+    font-size: 25px;
+    text-align: center;
+    list-style: none;
+}
+
+main p {
+    font-size: 20px;
+}
+
+main img {
+    display:block;
+    width: 75%;
+    margin: 20px auto;
+    border-radius: 20px;
+    border: 2px solid black;
+    box-shadow: 5px 10px 15px black;
+}
+
+footer {
+    background-color: gray;
+    padding: 40px 0;
+    text-align: center;
+}
