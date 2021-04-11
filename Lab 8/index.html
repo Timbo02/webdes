@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blackmagic</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="dist/slicknav.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css">
+    <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
+    <script src="dist/jquery.slicknav.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+    <script src="js/zenscroll-min.js"></script>
+    <script>
+        $(function(){
+            $('#menu').slicknav();
+            $('.slider').bxSlider();
+            $( "#accordion" ).accordion();
+        });
+    </script>
+</head>
+<body>
+    <div id="container">
+    <header id="top">
+        <h1>Blackmagic Pocket Cinema Camera</h1>
+        <img src="images/blackmagiclogo.png" alt="Logo">
+    </header>
+    <nav>
+        <ul id="menu">
+            <li><a href="#Home">Home</a></li>
+            <li><a href="#accordion">Info</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <section>
+
+            <h2 id="Home">What is the Blackmagic Pocket Cinema Camera?</h2>
+
+            <p>The Blackmagic Pocket Cinema Camera 4K features a 4/3 image sensor with 4096 x 2160 resolution and an MFT lens mount, allowing you to capture wide dynamic range, Hollywood quality, digital film images in the palm of your hand! It's an extremely advanced and affordable high end digital film camera.</p>
+            
+
+
+            <div class="slider">
+                <div><img src="images/bmfront.png" alt="Front of Camera"></div>
+                <div><img src="images/sideport.png" alt="Sidd of Camera"></div>
+                <div><img src="images/back.png" alt="Back of Camera"></div>
+                <div><img src="images/full.png" alt="Full view"></div>
+              </div>
+        </section>
+
+        <img src="images/mag1164.jpg" alt="">
+
+        <div id="accordion">
+            <h3>Workflow</h3>
+            <div>
+              <p>
+                Whether you’re shooting for an online blog, wedding, independent film, or even a documentary, the Blackmagic Pocket Cinema Camera packs incredible high end features into a portable design that delivers cinematic feature film quality images. The compact size lets you get shots from any angle, while professional features such as 12‑bit Blackmagic RAW recording and dual native ISO give you true digital film quality under virtually any lighting condition! Best of all, Blackmagic Pocket Cinema Camera models are affordable, making them perfect for online content creators and influencers, as well as independent filmmakers, educators, wedding videographers and more!
+              </p>
+            </div>
+            <h3>Design</h3>
+            <div>
+              <p>
+                Blackmagic Pocket Cinema Camera models feature a next generation design that makes them the world’s lightest, most portable and durable full featured 4K and 6K digital film cameras! You get incredible mobility in a carbon fiber polycarbonate composite body that’s packed with high end professional features such as state of the art image sensors, EF or MFT lens mounts, external controls, a 5 inch touchscreen monitor, professional audio recording with high quality microphones, USB‑C Expansion Port and more!
+              </p>
+            </div>
+            <h3>Blackmagic RAW</h3>
+            <div>
+              <p>
+                Blackmagic RAW is a revolutionary new and very modern codec that’s easier to use and much better quality than popular video formats, but with all the benefits of RAW recording. Featuring multiple new technologies, such as a new advanced de‑mosaic algorithm, Blackmagic RAW gives you visually lossless images that are ideal for high resolution, high frame rate and high dynamic range workflows. Incredible image quality, extensive metadata support and highly optimized GPU and CPU accelerated processing make Blackmagic RAW the world’s first codec that can be used for acquisition, post production and finishing.
+              </p>
+              <ul>
+                <li>Generation 5 Color Science</li>
+                <li>Constant Bitrate</li>
+                <li>The world’s fastest RAW codec</li>
+              </ul>
+            </div>
+            <h3>Accessories</h3>
+            <div>
+              <p>
+                Blackmagic Pocket Cinema Camera models are designed with standard mounting points and features that let you expand them so you can build a completely custom camera rig. Choose from an incredible range of accessories such as different lens adapters, external microphones, rails, cages, gimbals, 3rd party batteries and more! Plus, the innovative USB‑C expansion port lets you work with high speed and high capacity SSD or hard disks for Blackmagic RAW and ProRes recording!
+              </p>
+            </div>
+          </div>
+          <a class="button" href="#top">Back to the Top</a>
+    </main>
+
+    <footer>
+        <p>&copy; 2021 - BMPCC</p>
+    </footer>
+    </div>
+</body>
+</html>
