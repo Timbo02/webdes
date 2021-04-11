@@ -11,6 +11,7 @@
     <li><a href="Lab 5/index.html" target="_blank">Lab 5 -Responsive Design for Mobile</a></li>
     <li><a href="Lab 6/index.html" target="_blank">Lab 6 - Responsive Design for Tablet and Desktop</a></li>
     <li><a href="Lab 7/index.html" target="_blank">Lab 7 - Audio, Video, and Tables</a></li>
+    <li><a href="Lab 8/index.html" target="_blank">Lab 8 - A Brief Introduction to jQuery</a></li>
 
 </ul>
 
