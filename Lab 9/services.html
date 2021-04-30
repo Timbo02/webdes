@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Memphis Film Lab</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="https://use.typekit.net/gke5qhw.css">
+    <link rel="stylesheet" href="dist/slicknav.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
+    <script src="dist/jquery.slicknav.min.js"></script>
+    <script>
+        $(function(){
+            $('#menu').slicknav();
+            $('.slider').bxSlider();
+        });
+    </script>
+</head>
+<body>
+    <div id="container">
+    <header>
+        <h1>Memphis Film Lab</h1>
+    </header>
+    <nav>
+        <ul id="menu">
+            <li><a href="index.html">Home</a></li>
+            <li><a class="active" href="services.html">Services</a></li>
+            <li><a href="pricing.html">Pricing</a></li>
+            <li><a href="faq.html">FAQ</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <section class ="sec">
+
+            <h2>Services</h2>
+
+            <p>What can we do for you?</p>
+            <div class="items">
+            <img class="serv" src="images/Kodak-Max-400-35mm-Film.jpg" alt="35mm">
+            <p>We develop and scan 35mm</p>
+            </div>
+
+            <div class="items">
+            <img class="serv" src="images/61tE-v1SOlL._AC_SL1500_.jpg" alt="120">
+            <p>We develop and scan 120 medium format film</p>
+            </div>
+
+            <div class="items">
+            <img class="serv" src="images/5f1b6550a071c0cc07f37c2d.jpg" alt="Old film">
+            <p>We develop old and expired film</p>
+            </div>
+
+            <div class="items">
+            <img class="serv" src="images/gift-article.jpg" alt="Gift">
+            <p>We offer gift cards</p>
+            </div>
+        </section>
+        
+    </main>
+
+    <footer>
+        <p>&copy; 2021 - Memphis Film lab</p>
+    </footer>
+    </div>
+</body>
+</html>

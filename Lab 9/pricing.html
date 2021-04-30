@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Memphis Film Lab</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="https://use.typekit.net/gke5qhw.css">
+    <link rel="stylesheet" href="dist/slicknav.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
+    <script src="dist/jquery.slicknav.min.js"></script>
+    <script>
+        $(function(){
+            $('#menu').slicknav();
+            $('.slider').bxSlider();
+        });
+    </script>
+</head>
+<body>
+    <div id="container">
+    <header>
+        <h1>Memphis Film Lab</h1>
+    </header>
+    <nav>
+        <ul id="menu">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li><a class="active" href="pricing.html">Pricing</a></li>
+            <li><a href="faq.html">FAQ</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <section>
+
+            <h2>Pricing Charts</h2>
+
+            <p>To place an order please contact us directly</p>
+
+            <h3 class="price">35mm Bulk Rates (10 or more rolls)</h3>
+
+            <table>
+                <tr>
+                    <th>Product</th>
+                    <th>Format</th>
+                    <th>Price</th>
+                </tr>
+                <tr>
+                    <td>Grandma's Clost Special</td>
+                    <td>Process and Base Scan</td>
+                    <td>$6 / Roll</td> 
+                </tr>
+                <tr>
+                    <td>Bulk Standard</td>
+                    <td>Process and Standard Scan</td>
+                    <td>$8 / Roll</td>
+                </tr>
+                <tr>
+                    <td>Bulk Ultra</td>
+                    <td>Process and Ultra Scan</td>
+                    <td>$11.00 / Roll</td>
+                </tr>
+            </table>
+
+            <h3 class="price">Single Roll Rates</h3>
+
+            <table>
+                <tr>
+                    <th>Product</th>
+                    <th>Price</th>
+                </tr>
+                <tr>
+                    <td>Process Only</td>
+                    <td>$5</td> 
+                </tr>
+                <tr>
+                    <td>Process and Base Scans</td>
+                    <td>$8</td>
+                </tr>
+                <tr>
+                    <td>Process and Standard Scan</td>
+                    <td>$10</td>
+                </tr>
+                <tr>
+                    <td>Process and Ultra Scans</td>
+                    <td>$13</td>
+                </tr>
+            </table>
+
+        </section>
+        
+    </main>
+
+    <footer>
+        <p>&copy; 2021 - Memphis Film lab</p>
+    </footer>
+    </div>
+</body>
+</html>

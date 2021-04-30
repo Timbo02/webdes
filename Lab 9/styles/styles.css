@@ -1,0 +1,309 @@
+/* Global Styles */
+
+body {
+    background-color: #0d6fa8a2;
+}
+
+img {
+    max-width: 100%;
+}
+
+a {
+    color:black;
+}
+
+a:hover {
+    color: whitesmoke;
+    text-decoration: none;
+}
+
+/* Mobile Styles */
+
+header {
+    background-color:#89cdf5b2;
+    padding: 35px 0;
+    text-align: center;
+}
+
+header h1 {
+    font-family: rothwood, serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+nav {
+    background-color: #89cdf5c0;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+nav li {
+    display: block;
+}
+
+nav li a {
+    display: block;
+    padding: 15px 0;
+    border-top: 1px solid #CEECF2;
+    font-family: karmina, serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 2em;
+    text-decoration: none;
+}
+
+nav ul a:hover {
+    background-color:#65c4ffad;
+}
+
+main {
+    background-color: #5da157a6;
+    padding: 20px;
+    margin: 10px;
+}
+
+main h2 {
+    font-family: karmina,serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 2.5em;
+    text-align: center;
+}
+
+main p {
+    font-family: karmina,serif;
+    font-weight: 400;
+    font-style: italic;
+    font-size: 1.5em;
+    text-align: center;
+}
+
+main ul li {
+    font-family: karmina,serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1.2em;
+}
+
+.items p {
+    font-family: karmin,serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 2em;
+    text-align: center;
+}
+
+.serv {
+    padding: 15px 0;
+    margin: 10px auto;
+}
+
+aside h3 {
+    font-family: karmina,serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 2em;
+    padding: 0 25px;
+}
+
+aside ol li {
+    font-family: karmina,serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1.8em;
+}
+
+table {
+    border: 3px solid rgba(0, 0, 0, 0.692);
+    width: 100%;
+}
+
+tr, td, th {
+    border: 3px solid rgba(0, 0, 0, 0.692);
+    padding: 10px;
+    text-align: center;
+    font-family: rothwood,serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+th {
+    font-weight: 700;
+}
+
+iframe {
+    width: 100%;
+}
+
+div.bx-wrapper {
+    display:none;
+}
+
+.light {
+    display: block;
+}
+
+.price {
+    font-family: fira-sans,sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 1.3em;
+}
+
+footer {
+    background-color: #89cdf5b7;
+    text-align:center;
+    padding: 20px 0;
+    margin: 10px;
+}
+
+.desktop {
+    display:none;
+}
+
+#menu {
+    display:none
+}
+
+/* Tablet Styles */
+
+@media only screen and (min-width: 786px) {
+    
+    header h1 {
+        color: white;
+        text-shadow: 2px 2px 2px black;
+        font-size: 2em;
+    }
+
+    nav li {
+        display: inline-block;
+    }
+
+    nav li a{
+        padding:10px 40px ;
+    }
+
+    main {
+        display: flex;
+    }
+
+    main ul li {
+        font-size: 1.4em;
+    }
+
+    tr, td, th {
+        font-size: 1.2em;
+    }
+
+    section, aside{
+        border: 5px solid #CEECF2;
+        padding: 20px;
+        margin: 10px;
+    }
+
+    .serv {
+        border:none;
+        width: 50%;
+        display:block;
+    }
+
+    section {
+        width: 100%;
+    }
+
+    .sec {
+        width: 100%
+    }
+
+    aside{
+        width: 30%;
+    }
+
+    aside ol li {
+        font-family: karmina,serif;
+        font-weight: 700;
+        font-style: italic;
+        font-size: 1.3em;
+        padding: 15px 0;
+    }
+
+    div.bx-wrapper {
+        display:block;
+    }
+    
+    .light {
+        display: none;
+    }
+
+    #menu {
+        display: block;
+    }
+
+    .slicknav_menu {
+        display: none;
+    }
+
+}
+
+/* Desktop Styles */
+
+@media only screen and (min-width: 1024px ) {
+
+    header {
+        padding: 80px 0;
+    }
+
+    header h1 {
+        font-size: 3em;
+    }
+
+    body {
+        background-image: url('../images/000056500018.jpg');
+        background-size: cover;
+        background-position: right;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+    }
+    nav li a {
+        font-size: 30px;
+        padding: 20px 70px;
+    }
+
+    #container {
+        width: 75%;
+        margin: 20px auto;
+        border: 4px solid #CEECF2;
+    }
+
+    main ul li {
+        font-size: 1.8em;
+    }
+
+    .sec {
+        display: block;
+    }
+
+    aside ol li {
+        font-size: 1.8em;
+    }
+
+    .price {
+        font-size: 1.7em;
+    }
+
+    .desktop {
+        display: block;
+    }
+
+    .tab_mobile {
+        display: none;
+    }
+
+    .active{
+        background-color:#5da157a6;
+    }
+
+}
